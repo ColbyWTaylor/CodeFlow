@@ -1,7 +1,8 @@
 const Home = () => {
   return (
-    <div className="nav">
+    <div className="home">
       <h1>Home</h1>
+      <p>Growth Hack Launch Pad: Where Innovation and Technology Fuck</p>
     </div>
   );
 };
