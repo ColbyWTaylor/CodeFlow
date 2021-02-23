@@ -4,7 +4,7 @@ import About from "./About";
 import Users from "./Users";
 import Home from "./Home";
 import Posts from "./Posts";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Footer from "./Footer";
 
 function App() {
