@@ -37,8 +37,22 @@
   }
 }
 
-.FooterLinks, .NavLinks {
+.FooterLinks {
   list-style: none;
+}
+
+a, a:visited {
+  color: rgb(207, 207, 207);
+  text-decoration: none;
+}
+
+.NavLinks, .NavLinks>li {
+  list-style: none;
+  float: left;
+  width: 100%;
+  color: rgb(36, 36, 36);
+  padding: 0;
+  text-align: center;
 }
 
 .footer {

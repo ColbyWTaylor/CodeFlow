@@ -1,15 +1,26 @@
 const Posts = () => {
+  const posts = [
+    {
+      postID: 1,
+      name: "Post 1",
+      content: "<p>here is the text</p>",
+    },
+    {
+      postID: 2,
+      name: "Post 2",
+      content: "<p>here is the text</p>",
+    },
+  ];
+
   return (
     <div className="nav">
       <h1>Posts</h1>
       <p>Here are a list of Posts</p>
-      <ul>
-        <li>Posts 1</li>
-        <li>Posts 2</li>
-        <li>Posts 3</li>
-        <li>Posts 4</li>
-        <li>Posts 5</li>
-      </ul>
+      {posts.map((post, index) => (
+        <div key={post.id}>
+          <h2>{post.name}</h2>
+        </div>
+      ))}
     </div>
   );
 };
