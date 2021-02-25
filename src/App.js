@@ -11,26 +11,24 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <div>
-          <Nav />
+        <Nav />
 
-          {/* A <Switch> looks through its children <Route>s and
+        {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-          <Switch>
-            <Route path="/about">
-              <About />
-            </Route>
-            <Route path="/users">
-              <Users />
-            </Route>
-            <Route path="/posts">
-              <Posts />
-            </Route>
-            <Route path="/">
-              <Home />
-            </Route>
-          </Switch>
-        </div>
+        <Switch>
+          <Route path="/about">
+            <About />
+          </Route>
+          <Route path="/users">
+            <Users />
+          </Route>
+          <Route path="/posts">
+            <Posts />
+          </Route>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
 
         <Footer />
       </Router>
