@@ -1,3 +1,12 @@
+import styled from "styled-components";
+
+const Button = styled.button`
+  background: blue;
+  border-radius: 3px;
+  border: none;
+  color: white;
+`;
+
 const Users = () => {
   return (
     <div className="nav">
@@ -12,6 +21,7 @@ const Users = () => {
         <li>User 4</li>
         <li>User 5</li>
       </ul>
+      <Button>If I were green I would die</Button>
     </div>
   );
 };
