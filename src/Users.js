@@ -3,6 +3,8 @@ const Users = () => {
     <div className="nav">
       <h1>Users</h1>
       <p>Here are a list of users</p>
+      {/* remove li */}
+      {/* fill out simple profile list */}
       <ul>
         <li>User 1</li>
         <li>User 2</li>
