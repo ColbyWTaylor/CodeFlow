@@ -12,15 +12,11 @@ const Users = () => {
     <div className="nav">
       <h1>Users</h1>
       <p>Here are a list of users</p>
-      {/* remove li */}
-      {/* fill out simple profile list */}
-      <ul>
-        <li>User 1</li>
-        <li>User 2</li>
-        <li>User 3</li>
-        <li>User 4</li>
-        <li>User 5</li>
-      </ul>
+      <div className="userCard">
+        <h3>Name</h3>
+        <p>I like bagels</p>
+      </div>
+
       <Button>If I were green I would die</Button>
     </div>
   );
